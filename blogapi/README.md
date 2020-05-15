@@ -1,24 +1,18 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+* Ruby version: ruby 2.6.3
+* Rails version: Rails 6.0.3
 
-Things you may want to cover:
+* Project set-up:
 
-* Ruby version
+  1) git clone <this repo>
+  2) cd blogsite-api
+  3) bundle install
+  4) bundle exec guard( to enable guard livereload)
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+*open another terminal
+  
+  1) rails db:migrate
+  2) rails server
+  
+ Application will run at http://localhost:3000  
