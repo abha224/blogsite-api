@@ -10,7 +10,7 @@
   3) bundle install
   4) bundle exec guard( to enable guard livereload)
 
-*open another terminal
+  open another terminal
   
   1) rails db:migrate
   2) rails server
